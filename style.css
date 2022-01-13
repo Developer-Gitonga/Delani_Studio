@@ -1,0 +1,389 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.landing {
+  background-image: url("images/delani1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 17%;
+  font-family: "Gabriela", serif;
+}
+.landing h1 {
+  padding: 2px;
+  margin: 5px;
+}
+.landing p {
+  padding: 2px;
+}
+#logo {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 70px;
+  height: 70px;
+}
+#mouse-click {
+  padding-top: 22px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+}
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-55px);
+  }
+}
+
+.about {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  font-family: "Copse", serif;
+}
+#about {
+  font-family: "Gabriela", serif;
+}
+.services {
+  text-align: center;
+  background-image: url("images/delani2.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Copse", serif;
+  font-size: 18px;
+}
+.services h2 {
+  font-family: "Gabriela", serif;
+}
+#servicesoverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.what-we-do {
+  font-family: "Quattrocento", serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Gabriela", serif;
+}
+.what-we-do .headings {
+  padding-bottom: 38px;
+}
+
+portfolio {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  margin-bottom: 20px;
+  position: relative;
+  width: 50%;
+}
+
+.card-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+}
+
+.card:hover .card-body {
+  opacity: 0.5;
+}
+
+.card-body {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.portfolio-images {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  background-image: url(images/delani4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+*/ .contact-container > h3 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  margin-bottom: 20px;
+  opacity: 0.2;
+}
+
+.contact-form > input {
+  width: 350px;
+  height: 30px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+#comment {
+  margin-left: 20%;
+  width: 60%;
+}
+button {
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+/*
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+/* .contact-container> h3 {
+    color:white;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+  } */
+
+/* .contact-form {
+    margin-bottom: 20px;
+    opacity: 0.2;
+  } */
+
+/* .contact-form > input {
+    width: 350px;
+    height: 30px;
+  } */
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Delius Swash Caps", cursive;
+}
+footer p {
+  margin-top: 10px;
+}
+#product,
+#development,
+#design {
+  display: none;
+  font-family: "Copse", serif;
+  font-size: 16px;
+}
+#product .title,
+#development .title,
+#design .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  transition: 0.5s ease;
+  background-color: transparent;
+}
+#overlay:hover .overlay-body {
+  opacity: 0.5;
+}
+#overlay-body {
+  color: white;
+  font-size: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 110%;
+  width: 110%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
+
+@media only screen and (max-width: 735px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+  }
+  .col-md-3 img {
+    width: 100%px;
+    margin: 20px;
+  }
+  #portfolio {
+    margin-left: 8%;
+    margin-right: 16%;
+  }
+  button {
+    margin-left: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 445px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 20px;
+  }
+  .col-md-3 img {
+    width: 100%px;
+    margin: 20px;
+  }
+  #portfolio {
+    margin-left: 8%;
+    margin-right: 16%;
+  }
+  button {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+#comment {
+  margin-left: 4%;
+  width: 84%;
+}
+
+@media only screen and (min-width: 830px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top: 30%;
+  }
+  .col-md-3 img {
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 625px) {
+  #overlay1,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top: 20%;
+    font-size: 26px;
+  }
+  .col-md-3 img {
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio {
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+
+  .form {
+    padding-top: 10px;
+  }
+}
