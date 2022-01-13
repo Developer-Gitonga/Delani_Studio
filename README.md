@@ -3,7 +3,7 @@
 ## setup
 1)Install atom<br>2)Write your codes install a live server<br>3)Push your code to the remote server
 ## Technology used
-1)HTML<br>2)CSS3)javascript
+1)HTML<br>2)CSS<br>3)javascript<br>4)jQuery
 ## Support and contact
 Email:saizen52@gmail.com
 # MIT License
