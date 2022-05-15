@@ -54,6 +54,7 @@ $(document).ready(function(){
       $("#overlay3").hide();
     });
   });
+
   $(document).ready(function(){
     $(".work4").mouseover(function(){
       $("#overlay4").show();
