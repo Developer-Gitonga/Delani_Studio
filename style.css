@@ -291,6 +291,7 @@ footer p {
   background-color: white;
 }
 
+
 @media only screen and (max-width: 735px) {
   #overlay1,
   #overlay2,
@@ -408,7 +409,6 @@ footer p {
     margin-left: 6%;
     margin-right: 10%;
   }
-
   .form {
     padding-top: 10px;
   }
