@@ -86,6 +86,7 @@ $(document).ready(function(){
       $("#overlay7").hide();
     });
   });
+
     $(document).ready(function(){
     $(".work8").mouseover(function(){
       $("#overlay8").show();
