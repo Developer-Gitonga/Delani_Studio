@@ -273,6 +273,7 @@ footer p {
 #overlay:hover .overlay-body {
   opacity: 0.5;
 }
+
 #overlay-body {
   color: white;
   font-size: 30px;
