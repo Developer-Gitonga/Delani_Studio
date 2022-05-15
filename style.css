@@ -315,6 +315,8 @@ footer p {
     margin-bottom: 20px;
   }
 }
+
+
 @media only screen and (max-width: 445px) {
   #overlay1,
   #overlay2,
