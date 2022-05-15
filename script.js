@@ -78,6 +78,7 @@ $(document).ready(function(){
       $("#overlay6").hide();
     });
   });
+
     $(document).ready(function(){
     $(".work7").mouseover(function(){
       $("#overlay7").show();
