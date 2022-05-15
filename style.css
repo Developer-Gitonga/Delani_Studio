@@ -269,6 +269,7 @@ footer p {
   transition: 0.5s ease;
   background-color: transparent;
 }
+
 #overlay:hover .overlay-body {
   opacity: 0.5;
 }
