@@ -6225,6 +6225,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
+
 @media (min-width: 768px) {
   .sticky-md-top {
     position: -webkit-sticky;
